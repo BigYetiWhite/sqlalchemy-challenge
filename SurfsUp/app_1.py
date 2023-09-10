@@ -1,4 +1,3 @@
-
 import numpy as np
 
 import sqlalchemy
@@ -125,6 +124,8 @@ def tobs():
 
     return jsonify(all_tobs_USC00519281_12m)
     
+
+## I have not fully attempted beyond this point ##
 
 
 #@app.route("/api/v1.0/<start>")
